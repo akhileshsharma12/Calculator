@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calsi Calculator</title>
+</head>
+
+<body>
+
+    <div class="frame">
+        <p> Calsi Calculator </p>
+        <div class="display">
+            <input type="text" id="inputField" disabled>
+        </div>
+        <div class="buttons-group">
+            <input class="button" type="button" value="9" onclick="inputField.value += '9'">
+            <input class="button" type="button" value="8" onclick="inputField.value += '8'">
+            <input class="button" type="button" value="7" onclick="inputField.value += '7'">
+            <input class="button" id="unique" type="button" value="+" onclick="inputField.value += '+'">
+        </div>
+        <div class="buttons-group">
+            <input class="button" type="button" value="6" onclick="inputField.value += '6'">
+            <input class="button" type="button" value="5" onclick="inputField.value += '5'">
+            <input class="button" type="button" value="4" onclick="inputField.value += '4'">
+            <input class="button" id="unique" type="button" value="-" onclick="inputField.value += '-'">
+        </div>
+        <div class="buttons-group">
+            <input class="button" type="button" value="3" onclick="inputField.value += '3'">
+            <input class="button" type="button" value="2" onclick="inputField.value += '2'">
+            <input class="button" type="button" value="1" onclick="inputField.value += '1'">
+            <input class="button" id="unique" type="button" value="x" onclick="inputField.value += '*'">
+        </div>
+        <div class="buttons-group">
+            <input class="button" id="danger" type="button" value="C" onclick="inputField.value = ''">
+            <input class="button" type="button" value="0" onclick="inputField.value += '0'">
+            <input class="button" id="danger" type="button" value="/" onclick="inputField.value += '/'">
+            <input class="button" id="unique" type="button" value="=" onclick="inputField.value = eval(inputField.value)">
+        </div>
+    </div>
+
+    
+
+    <script>
+        
+       
+
+
+
+    </script>
+</body>
+</html>
